@@ -62,3 +62,15 @@ for number in [3,41,12,9,74,15]:
         smallest = number
 print(smallest)
 
+#  IS and IS NOT
+
+'''
+stronger to ==
+0 == 0.0 TRUE   Value and Type
+0 is 0.0 FALSE  Value and Type
+
+better for booleans and None types.
+Not for string, intergers, floats.
+
+'''
+
