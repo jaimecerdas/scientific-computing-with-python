@@ -77,6 +77,8 @@ print(line.startswith("S"))
 
 #Parcing and extracting
 
+#finding the domain for an email
+
 data = "this is an email hello@domain.com More info"
 atposition = data.find("@")
 print(atposition)
@@ -84,3 +86,7 @@ spaceposition = data.find(" ",atposition)
 print(spaceposition)
 host = data[atposition + 1 : spaceposition]
 print (host)
+
+#Two kinds od strings:
+#In Python 3 all strings are Unicode
+
